@@ -1,0 +1,79 @@
+.btn-custom {
+    background-color: #063D54;
+    color: white;
+}
+
+.btn-custom:hover {
+    background-color: #638694;
+    color: white;
+}
+
+.footer {
+    margin-top: auto;
+    background-color: #063D54;
+    color: white;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.center-input{
+    display: block;
+    margin: 0 auto;
+}
+
+.circulo {
+    width: 50px; /* Ajusta el tamaño según sea necesario */
+    height: 50px;
+    border-radius: 50%; /* Hace que el contenedor tenga forma circular */
+    background-size: cover; /* Hace que la imagen de fondo cubra todo el contenedor */
+    background-position: center; /* Centra la imagen de fondo */
+}
+
+#sidebar {
+    background-color: #063D54;
+    color: #fff;
+    text-align: center;
+}
+#sidebar .list-group-item {
+    background-color: transparent;
+    color: #fff;
+    border: none;
+}
+#sidebar .list-group-item:hover {
+    background-color: #6c757d;
+}
+
+#box {
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+#box h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+#tabla {
+    margin-top: 20px;
+}
+
+.ok {
+	text-align: center;
+	width: 100%;
+	padding: 12px;
+	background-color: #1e6;
+	color: #fff
+}
+.bad {
+	text-align: center;
+	width: 100%;
+	padding: 12px;
+	background-color: #a22;
+	color: #fff
+}
